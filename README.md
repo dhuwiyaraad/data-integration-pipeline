@@ -1,4 +1,4 @@
-# data-integration-pipeline
+# data-integration-pip
 # Data Integration Pipeline (API + ETL + Flask)
 
 ## 📌 Overview
@@ -40,6 +40,25 @@ python3 api.py
 http://127.0.0.1:5000/prices
 
 ## 📊 Example Output
+│── main.py # Extract & load data
+│── api.py # Flask API
+│── database.py # Database logic
+│── data.db # SQLite database
+│── README.md
+
+
+## How to Run the Project
+1. Install dependencies
+pip install flask requests
+3. Run data pipeline
+python3 main.py
+4. Start API server
+python3 api.py
+5. Open in browser
+http://127.0.0.1:5000/prices
+
+Example Output
+
 [
   {
     "id": 1,
